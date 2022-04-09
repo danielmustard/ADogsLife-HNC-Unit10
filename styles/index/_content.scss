@@ -1,0 +1,30 @@
+*{
+    font-family: $mainFont;
+}
+
+.offerHeader{
+    width: 100%;
+    text-align: center;
+    font-family: $mainFont;
+    text-decoration: underline;
+}
+
+.contentContainer{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; // fraction
+    text-align: center;
+}
+.cover {
+    object-fit: cover;
+    width: 350px;
+    height: 250px;
+  }
+  .containerText {
+      margin: auto;
+      max-width: 300px;
+      text-align: center;
+      h1{
+          color: $primaryPink;
+          text-decoration: underline;
+      }
+  }

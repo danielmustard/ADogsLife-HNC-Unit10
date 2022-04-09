@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Used for importing footer social media logos  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="./navbar.js"></script>
+    <!-- // -->
+    
+    <script defer src="./script.js" > </script> <!-- Script used to control content on the Homepage Slider -->
+    <title>A Dogs Life</title>
+</head>
+<body>
+    <header> <!-- Start of NAVBAR -->
+        <img src="./assets/logos/logo_onWhite.png" height="150px" width="150px">   
+        <nav>
+            <button class="hamburger" id="hamburger">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li class="navbar-links"><a href="./index.html">Home</a></li>
+                <li class="navbar-links"><a href="./donate.html">Donate</a></li>
+                <li class="navbar-links"><a href="./stories.html">Stories</a></li>
+                <li class="navbar-links"><a href="./kennel.html">Kennel</a></li>
+                <li class="navbar-links"><a href="./volunteers.html">Volunteer</a></li>
+                <li class="navbar-links"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="donateBtn" href="./donate.html"><button>Donate Now</button></a> 
+    </header> <!-- END OF NAVBAR -->
+    
+    <div class="slideShowContainer">
+        <div class="slideImg fade">
+            <img src="./assets/imgs/banner1.jpg" style="width:100%">
+        </div>
+        <div class="slideImg fade">
+            <img src="./assets/imgs/banner2.jpg" style="width:100%">
+        </div>
+        <div class="slideImg fade">
+            <img src="./assets/imgs/banner3.jpg" style="width:100%">
+        </div>
+        <!-- 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        Next buttons -->
+    </div>
+    <br>
+    <div class="whatWeOffer">
+        <div class="offerHeader">
+            <h1>What we Offer?</h1>
+        </div>
+        <br>
+
+        <div class="contentContainer">
+            <div class="left">
+                <div class="image">
+                    <img src="./assets/mainPage/kennel-2.jpg" class="cover">
+                </div>
+                <div class="containerText">
+                    <h1>Kennel Services</h1>
+                    <p>We offer a safe and secure enviroment for your dog when you are not are not around.
+                        
+                    </p>
+                </div>
+            </div>
+
+            <div class="middle">
+                <div class="image">
+                    <img class="cover" src="./assets/mainPage/family.jpg">
+                </div>
+                <div class="containerText">
+                    <h1>Dog Rehoming</h1>
+                    <p>All the dogs in our care are thoroughly assessed by our behaviour experts to determine their ideal home.</p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="image">
+                    <img class="cover" src="./assets/mainPage/volunteers.png">
+                </div>
+                <div class="containerText">
+                    <h1>Volunteering</h1>
+                    <p>Looking for the perfect volunteer opportunity? We've got you covered - from hands on dog walkers to shop assistants and so much more! 
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Start of Donation Form -->
+    <form action="#" id="donateForm">
+        <div class="donationFormContainer">
+            <div class="panel">
+                <h1>Donate</h1>
+                <div class="widgets">
+                    
+                    <button id="single-tab">
+                        <img src="./assets/svg/credit-card-svgrepo-com.svg" height="30px" width="30px"><br>
+                        Single
+                    </button>
+                    <button id="monthly-tab" type="menu">
+                        <img src="./assets/svg/calendar-svgrepo-com.svg" height="30px" width="30px"><br>
+                        Monthly
+                    </button>
+                </div>
+                <h2>How much would you like to donate?</h2>
+                <div class="donationAmount">
+                    <fieldset>
+                        <legend style="display: none;">Donation Amount selector</legend>
+                        <button id="amount1">
+                            £10
+                        </button>
+                        <button id="amount2">
+                            £20
+                        </button>
+                        <button id="amount3">
+                            £30
+                        </button>
+                        </div>
+                    </fieldset>
+                    <div class="ownAmount">
+                        <label>Enter custom donation amount:</label>
+                        <input id="own-amount-input" type="text" placeholder="£50">
+                    </div>
+                    <div class="submit">
+                        <button id="submit-button">
+                            <span>Submit <img src="./assets/svg/chevron-right.svg" height="10px" width="10px"></span>
+                        </button>
+                    </div>
+                </div>
+                
+        </div>
+    </form>
+    <!-- End of Donation form -->
+    
+    <!-- Dog Imgs -->
+    <div class="images">
+        <img src="./assets/mainPage/dogimg-1.jpg">
+        <img src="./assets/mainPage/dogimg-2.jpg">
+        <img src="./assets/mainPage/dogimg-3.jpg">
+    </div>
+    <!-- End of dog IMGS -->
+
+    <!-- Start of footer -->
+    <footer>
+        <br>
+        <div class="socialMediaIcons">
+            <a href="https://www.instagram.com" id="footer-extLinks"><ion-icon name="logo-instagram" size="large"></ion-icon></a>
+            <a href="https://twitter.com" id="footer-extLinks"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+            <a href="https://facebook.com" id="footer-extLinks"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+        </div>
+        <ul class="footer-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <br>
+        <p class="copyright">A Dogs Life © 2022</p><br>
+        <span>Registered Charity Numbers: 12345678 Donations are tax exempt and Gift Aid can be claimed </span>
+    </footer>
+    <!-- End of footer -->
+</body>
+</html>

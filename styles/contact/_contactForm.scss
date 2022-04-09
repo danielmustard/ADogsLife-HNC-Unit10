@@ -1,0 +1,30 @@
+div.formContainer{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    background-color: $tpink;
+    border-radius: 30px;
+}
+
+form.contact-form{
+    display: inline-grid;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    input{
+        justify-self: center;
+        width: 150px;
+        font-size: 15px;
+        text-align: center;
+    }input#message{
+        height: 150px;
+        width: 350px;
+    }
+    button{
+        margin: auto;
+        margin-top: 10px;
+        width: 55px;
+    }
+}

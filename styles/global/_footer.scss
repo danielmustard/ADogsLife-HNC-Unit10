@@ -1,0 +1,27 @@
+footer{
+    max-height: 200px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px dotted black;
+    margin-top: 35px;
+    a{
+        text-decoration: none;
+        cursor: pointer;
+        padding: 0px 20px;
+        margin-top: 50px;
+    }    
+    
+    }
+ul.footer-list li{
+    display: inline-block;
+    text-align: center;
+}
+
+#footer-extLinks{
+    margin: 0px;
+    padding: 0px;
+}
+footer span{
+    color: white;
+    background-color: $primaryGrey;
+}

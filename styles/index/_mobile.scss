@@ -1,0 +1,13 @@
+@media screen and (max-width:767px){
+    .contentContainer{
+        display: block;
+        padding: 10%;
+    }
+    .donationFormContainer{
+        max-width: none;
+    }
+    .images{
+        flex-direction: column;
+        align-items: center;
+    }
+}

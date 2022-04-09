@@ -1,0 +1,62 @@
+
+
+nav button.hamburger{
+    display: none;
+    background-color: transparent;
+    ion-icon{
+        color: black;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+@mixin mobileResize {
+    @media screen and (max-width:768px){
+        display: none;
+    }    
+}
+
+@media screen and (max-width:767px){
+    nav button.hamburger{
+        display: block;
+        z-index: 2;
+    }
+
+    nav ul.nav-links.show{
+        text-align: center;
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 1;
+        background-color: plum;       
+    }
+    header img{
+        height: 55%;
+        width: 55%;
+        z-index: 3;
+    }
+}
+
+
+
+
+
+
+
+nav ul{
+    @include mobileResize;
+}
+
+a.donateBtn{
+    @include mobileResize;
+}
+
+
+nav ul.show{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}

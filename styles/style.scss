@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+//Affects all elements on the website. 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+//Font Preferences 
+$mainFont : "Open Sans", sans-serif;
+$textFontWeight: 500;
+$titleFontWeight: 800;
+$fontTitleSize : 25px;
+//Dog Names Font
+$dogNames: 'Grape Nuts', cursive;
+
+
+//Primary Colours
+$primaryPink : #AF60A2;
+$primaryGrey : #7C6C77;
+//Secondary Colours
+$brightPink : #E82D8A;
+$lightPink : #AF60A2;
+
+//Importing different components
+
+//transparent colours
+$tgrey:	hsla(319, 7%, 45%, 0.8);
+$tpink : hsla(330, 80%, 54%,0.2);
+@import './index/slider', './global/header' , './index/content','./donate/donatePage-header', './index/images','./global/footer', './index/donate','./stories/storiesPage-DogsGrid','./contact/contactForm','./kennel/kennelStyle','./volunteers/volunteersStyle','./global/hamburger', './index/mobile','./kennel/kennelStyle','./contact/mobilecontact','./stories/storiesMobile';

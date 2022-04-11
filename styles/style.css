@@ -406,6 +406,7 @@ div.dogsGrid div.dogContainer p#names {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 100px;
 }
 
 .dogsGrid2 div.dogContainer p#names {

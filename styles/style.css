@@ -256,7 +256,7 @@ ul.footer-list li {
   text-align: center;
 }
 
-#footer-extLinks {
+.footer-extLinks {
   margin: 0px;
   padding: 0px;
 }
@@ -290,10 +290,6 @@ footer span {
 
 .donationFormContainer .widgets button {
   height: 100px;
-}
-
-.panel {
-  text-align: center;
 }
 
 #single-tab, #monthly-tab {
@@ -393,7 +389,7 @@ div.dogContainer {
   text-align: center;
 }
 
-div.dogsGrid div.dogContainer p#names {
+div.dogsGrid div.dogContainer p.names {
   font-family: "Grape Nuts", cursive;
   font-weight: 700;
   font-size: 1.5pc;
@@ -409,7 +405,7 @@ div.dogsGrid div.dogContainer p#names {
   padding-bottom: 100px;
 }
 
-.dogsGrid2 div.dogContainer p#names {
+.dogsGrid2 div.dogContainer p.names {
   font-family: "Grape Nuts", cursive;
   font-weight: 700;
   font-size: 1.5pc;

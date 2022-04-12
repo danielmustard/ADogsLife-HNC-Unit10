@@ -17,7 +17,7 @@ div.dogContainer{
     text-align: center;
 }
 
-div.dogsGrid div.dogContainer p#names{
+div.dogsGrid div.dogContainer p.names{
     font-family: $dogNames;
     font-weight: 700;
     font-size: 1.5pc;
@@ -28,7 +28,7 @@ div.dogsGrid div.dogContainer p#names{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-bottom: 100px;
-    div.dogContainer p#names{
+    div.dogContainer p.names{
         font-family: $dogNames;
         font-weight: 700;
         font-size: 1.5pc;

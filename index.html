@@ -37,7 +37,7 @@
                 <li class="navbar-links"><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-        <button><a class="donateBtn" href="./donate.html">Donate Now</a></button>
+        <button onclick="window.location.href='/donate.html'">Donate Now</button>
     </header> <!-- END OF NAVBAR -->
     
     <div class="slideShowContainer">
@@ -77,7 +77,7 @@
 
             <div class="middle">
                 <div class="image">
-                    <img class="cover" src="./assets/mainPage/family.jpg">
+                    <img class="cover" src="./assets/mainPage/family.jpg" alt="Family With Dog">
                 </div>
                 <div class="containerText">
                     <h1>Dog Rehoming</h1>
@@ -110,13 +110,16 @@
                         <img src="./assets/svg/credit-card-svgrepo-com.svg" height="30" width="30" alt="Credit card"><br>
                         Single
                     </button>
-                    <button id="monthly-tab" type="menu">
+                    <button id="monthly-tab">
                         <img src="./assets/svg/calendar-svgrepo-com.svg" height="30" width="30" alt="Calendar"><br>
                         Monthly
                     </button>
                 </div>
+                
                 <h2>How much would you like to donate?</h2>
+            
                 <div class="donationAmount">
+
                     <fieldset>
                         <legend style="display: none;">Donation Amount selector</legend>
                         <button id="amount1">
@@ -129,16 +132,20 @@
                             £30
                         </button>
                         </div>
-                    </fieldset>
+                        </fieldset>
                     <div class="ownAmount">
                         <label>Enter custom donation amount:</label>
                         <input id="own-amount-input" type="text" placeholder="£50">
                     </div>
+                   
+
+
                     <div class="submit">
                         <button id="submit-button">
                             <span>Submit <img src="./assets/svg/chevron-right.svg" height="10" width="10" alt="chevron"></span>
-                        </button>
+                        </button>          
                     </div>
+            </div>     
                 </div>
                 
         </div>

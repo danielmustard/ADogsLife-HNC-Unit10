@@ -292,6 +292,10 @@ footer span {
   height: 100px;
 }
 
+.panel {
+  text-align: center;
+}
+
 #single-tab, #monthly-tab {
   display: inline-block;
   width: 75px;

@@ -1,6 +1,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
+<a href="https://danielmustard.github.io/ADogsLife-HNC-Unit10/"><strong>Take a look at the site »</strong></a>
+
 ## About The Project
 
 [<img src="./images/website-screenshot.jpg" width="800"/>](image.png)
